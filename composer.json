@@ -73,7 +73,8 @@
             }
         },
         "patchLevel": {
-            "drupal/url_embed": "-p1"
+            "drupal/url_embed": "-p1",
+            "goalgorilla/open_social": "-p1"
         }
     },
     "config": {

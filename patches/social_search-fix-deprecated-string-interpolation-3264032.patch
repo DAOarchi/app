@@ -1,7 +1,7 @@
-diff --git html/profiles/contrib/social/modules/social_features/social_search/social_search.module html/profiles/contrib/social/modules/social_features/social_search/social_search.module
+diff --git a/modules/social_features/social_search/social_search.module b/modules/social_features/social_search/social_search.module
 index xxxxxxx..xxxxxxx 100644
---- html/profiles/contrib/social/modules/social_features/social_search/social_search.module
-+++ html/profiles/contrib/social/modules/social_features/social_search/social_search.module
+--- a/modules/social_features/social_search/social_search.module
++++ b/modules/social_features/social_search/social_search.module
 @@ -148,7 +148,7 @@
        '#attributes' => [
          'type' => 'text/css',
