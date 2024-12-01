@@ -67,6 +67,9 @@
         "patches": {
             "drupal/url_embed": {
                 "Translate dialog title": "https://www.drupal.org/files/issues/2018-03-16/url_embed_translate_dialog_title-2953591-2.patch"
+            },
+            "goalgorilla/open_social": {
+                "Fix deprecated string interpolation in social_search module": "patches/social_search-fix-deprecated-string-interpolation-3264032.patch"
             }
         },
         "patchLevel": {

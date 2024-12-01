@@ -1,0 +1,13 @@
+diff --git html/profiles/contrib/social/modules/social_features/social_search/social_search.module html/profiles/contrib/social/modules/social_features/social_search/social_search.module
+index xxxxxxx..xxxxxxx 100644
+--- html/profiles/contrib/social/modules/social_features/social_search/social_search.module
++++ html/profiles/contrib/social/modules/social_features/social_search/social_search.module
+@@ -148,7 +148,7 @@
+       '#attributes' => [
+         'type' => 'text/css',
+       ],
+-      '#value' => "#block-filter .form-item-sort-bef-combine:after { content: '${translated_filter}'; }",
++      '#value' => "#block-filter .form-item-sort-bef-combine:after { content: '{$translated_filter}'; }",
+     ];
+   }
+ }
