@@ -5,6 +5,7 @@
 /html/themes/contrib
 /html/sites/default/files
 /html/libraries
+/private
 vendor/
 .idea
 
