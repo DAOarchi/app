@@ -1,0 +1,9 @@
+{
+  "intelephense.environment.documentRoot": "/Users/proofoftom/Code/open-social-aragon/html",
+  "intelephense.environment.includePaths": [
+    "/Users/proofoftom/Code/open-social-aragon/html/core",
+    "/Users/proofoftom/Code/open-social-aragon/html/modules",
+    "/Users/proofoftom/Code/open-social-aragon/html/profiles"
+  ],
+  "php.suggest.basic": false
+}
