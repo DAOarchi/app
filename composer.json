@@ -6,10 +6,10 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "goalgorilla/open_social": "~12.4.0",
-        "php": "^8.0",
+        "goalgorilla/open_social": "~13.0.0",
+        "php": "^8.2",
         "monolog/monolog": "^2.3.5",
-        "drush/drush": "dev-test-74"
+        "drush/drush": "^12.0"
     },
     "repositories": [
         {
@@ -57,8 +57,15 @@
             ]
         },
         "enable-patching": true,
+        "patches": {
+            "drupal/url_embed": {
+                "Translate dialog title": "https://www.drupal.org/files/issues/2018-03-16/url_embed_translate_dialog_title-2953591-2.patch",
+                "Issue #2761187: Improve how the module deals with non-embeddable URLs": "https://www.drupal.org/files/issues/2023-09-22/urlembed-non-embeddable-urls-2761187-opensocial-combined-21_2.x_1_ckeditor5.patch"
+            }
+        },
         "patchLevel": {
-            "drupal/core": "-p2"
+            "drupal/core": "-p2",
+            "drupal/url_embed": "-p1"
         }
     },
     "config": {
