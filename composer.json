@@ -6,10 +6,17 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
+        "composer/installers": "^2.0",
+        "cweagans/composer-patches": "^1.7",
+        "drupal/core": "^10.3",
+        "drupal/core-composer-scaffold": "^10.3",
+        "drupal/core-project-message": "^10.3",
+        "drupal/core-recommended": "^10.3",
+        "drupal/core-vendor-hardening": "^10.3",
+        "drush/drush": "^12.0",
         "goalgorilla/open_social": "~13.0.0",
-        "php": "^8.2",
         "monolog/monolog": "^2.3.5",
-        "drush/drush": "^12.0"
+        "php": "^8.2"
     },
     "repositories": [
         {
@@ -60,7 +67,8 @@
         "patches": {
             "drupal/url_embed": {
                 "Translate dialog title": "https://www.drupal.org/files/issues/2018-03-16/url_embed_translate_dialog_title-2953591-2.patch",
-                "Issue #2761187: Improve how the module deals with non-embeddable URLs": "https://www.drupal.org/files/issues/2023-09-22/urlembed-non-embeddable-urls-2761187-opensocial-combined-21_2.x_1_ckeditor5.patch"
+                "Issue #2761187: Improve how the module deals with non-embeddable URLs": "https://www.drupal.org/files/issues/2023-09-22/urlembed-non-embeddable-urls-2761187-opensocial-combined-21_2.x_1_ckeditor5.patch",
+                "Issue #3386590: preg_split in _filter_url breaks for long html tags": "https://www.drupal.org/files/issues/2023-09-11/3382821-url_embed-preg-split_2.x_1.patch"
             }
         },
         "patchLevel": {
@@ -74,7 +82,9 @@
             "cweagans/composer-patches": true,
             "drupal/core-composer-scaffold": true,
             "oomphinc/composer-installers-extender": true,
-            "zaporylie/composer-drupal-optimizations": true
+            "zaporylie/composer-drupal-optimizations": true,
+            "drupal/core-project-message": true,
+            "drupal/core-vendor-hardening": true
         }
     }
 }
