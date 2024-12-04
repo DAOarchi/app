@@ -13,6 +13,7 @@ use_dns_when_possible: true
 composer_version: "2"
 web_environment: []
 corepack_enable: false
+webimage_extra_packages: [php8.2-gmp] # For Web3 Auth module
 # Key features of DDEV's config.yaml:
 
 # name: <projectname> # Name of the project, automatically provides

@@ -16,7 +16,8 @@
         "drush/drush": "^12.0",
         "goalgorilla/open_social": "~13.0.0",
         "monolog/monolog": "^2.3.5",
-        "php": "^8.2"
+        "php": "^8.2",
+        "drupal/web3_auth": "^1.0@beta"
     },
     "repositories": [
         {
