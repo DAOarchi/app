@@ -60,7 +60,14 @@ const inProgressFeatures = [
     badge: true,
     description:
       "Provides an easily navigable directory of selected content picked by the community managers (i.e. manuals, research papers, and community news).",
-    icon: "bx:bxs-chat",
+    icon: "bx:bxs-institution",
+  },
+  {
+    title: "Launch New DAO",
+    badge: true,
+    description:
+      "Easily create and launch your own Decentralized Autonomous Organization with just a few clicks without leaving the comfort of DAO.archi.",
+    icon: "bx:bxs-rocket",
   },
 ];
 
@@ -94,9 +101,9 @@ const futureFeatures = [
 
 <div class="mt-16 md:mt-16">
   <h2 class="text-3xl lg:text-4xl font-bold lg:tracking-tighter">
-    All the tools you need to enhance social interactions within your DAO
+    All the tools you need to make decisions and take action!
   </h2>
-  <p class="text-lg mt-4 text-slate-600">
+  <p class="text-lg mt-4 text-slate-200">
     DAO.archi comes batteries included. It takes the best parts of
     state-of-the-art DAO frameworks and enhances them with unique social
     features.
@@ -111,15 +118,15 @@ const futureFeatures = [
           <Icon class="text-white" name={item.icon} />
         </div>
         <div>
-          <h3 class="font-semibold text-xl">{item.title}</h3>{" "}
-          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+          <h3 class="font-bold text-xl">{item.title}</h3>{" "}
+          <p class="text-slate-300 mt-2 leading-relaxed">{item.description}</p>
         </div>
       </div>
     ))
   }
 </div>
 
-<div class="mt-16 text-2xl font-bold">In Progress</div>
+<div class="mt-16 text-2xl font-semibold">In Progress</div>
 <div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
   {
     inProgressFeatures.map((item) => (
@@ -128,22 +135,22 @@ const futureFeatures = [
           <Icon class="text-white" name={item.icon} />
         </div>
         <div>
-          <h3 class="font-semibold text-xl" style="display: inline;">
+          <h3 class="font-bold text-xl" style="display: inline;">
             {item.title}
           </h3>{" "}
           {item.badge && (
-            <span class="ml-1 px-2 py-0.5 text-[10px] animate-pulse font-semibold uppercase text-white bg-indigo-600 rounded-full">
+            <span class="ml-1 px-2 py-0.5 text-[10px] animate-pulse font-semibold uppercase text-white bg-indigo-300 rounded-full">
               Next Release
             </span>
           )}
-          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+          <p class="text-slate-300 mt-2 leading-relaxed">{item.description}</p>
         </div>
       </div>
     ))
   }
 </div>
 
-<div class="mt-16 text-2xl font-bold">Future</div>
+<div class="mt-16 text-2xl font-semibold">Future</div>
 <div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
   {
     futureFeatures.map((item) => (
@@ -152,8 +159,8 @@ const futureFeatures = [
           <Icon class="text-white" name={item.icon} />
         </div>
         <div>
-          <h3 class="font-semibold text-xl">{item.title}</h3>{" "}
-          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+          <h3 class="font-bold text-xl">{item.title}</h3>{" "}
+          <p class="text-slate-300 mt-2 leading-relaxed">{item.description}</p>
         </div>
       </div>
     ))
