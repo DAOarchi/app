@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Custom Hero Block module file.
+ */
+
+/**
+ * Implements hook_page_attachments().
+ */
+function custom_hero_block_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'custom_hero_block/hero';
+}

@@ -1,0 +1,6 @@
+.block-social-hero .hero-canvas,
+.cover .hero-canvas,
+.hero-canvas {
+  max-width: 100% !important;
+  width: 100% !important;
+}
