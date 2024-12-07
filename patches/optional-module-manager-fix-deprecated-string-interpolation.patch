@@ -1,0 +1,7 @@
+diff --git a/src/Installer/OptionalModuleManager.php b/src/Installer/OptionalModuleManager.php
+index xxxxxxx..xxxxxxx 100644
+--- a/src/Installer/OptionalModuleManager.php
++++ b/src/Installer/OptionalModuleManager.php
+@@ -121,1 +121,1 @@
+-      throw new IOException("Could not read '${feature_list_file}'.");
++      throw new IOException("Could not read '$feature_list_file'.");
